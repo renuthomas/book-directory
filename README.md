@@ -36,23 +36,26 @@ A simple **Node.js + Express + MongoDB CRUD API** for managing a book directory.
 ## Installation & Setup
 
 1. Clone the repo
+   
    ```bash
    git clone https://github.com/renuthomas/book-directory.git
    cd book-directory
    ```
 2. Install dependencies
-  ```bash
+   ```bash
    npm install
-  ```
-3. Create a .env file and add your MongoDB URI:
+   ```
+3. Create a .env file and add your MongoDB URI
+   
    ```
    DB_URI=mongodb://localhost:27017/bookdb
    PORT=4000
    ```
 4. Start the server
-  ```bash
+   ```bash
    npm run start
-  ```
+   ```
+
 ## API Endpoints
 Base URL: http://localhost:4000/api/v1/books
 
